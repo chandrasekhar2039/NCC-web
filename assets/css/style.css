@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-  color: #00cc81;
+  color: #00AEEF;
   text-decoration: none;
 }
 
@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #00b371;
+  background: #00AEEF;
   color: #fff;
 }
 
@@ -559,7 +559,7 @@ section {
 }
 
 .section-bg {
-  background-color: #8fffd6;
+  /* background-color: #8fffd6; */
 }
 
 .section-title {
@@ -739,7 +739,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #00b371;
+  background: #00AEEF;
+  opacity: 0.7;
 }
 
 @media (max-width: 1024px) {
@@ -947,7 +948,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #33ffb4;
+  /* color: #33ffb4; */
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1065,10 +1066,6 @@ section {
   color: #fff;
 }
 
-.pricing .recommended .btn-buy:hover {
-  background: #00b371;
-  border-color: #00b371;
-}
 
 .pricing .recommended-badge {
   position: absolute;
@@ -1110,15 +1107,8 @@ section {
   color: #848484;
 }
 
-.faq .img {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  min-height: 400px;
-}
-
 .faq .accordion-list {
-  padding: 0 100px 60px 100px;
+  padding: 0 0px 60px 10px;
 }
 
 .faq .accordion-list ul {
@@ -1484,20 +1474,20 @@ section {
 }
 
 #footer h3 {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   color: #fff;
   position: relative;
   font-family: "Poppins", sans-serif;
   padding: 0;
-  margin: 0 0 15px 0;
+  margin: 0 0 40px 0;
 }
 
 #footer p {
-  font-size: 15;
+  font-size: 25;
   font-style: italic;
   padding: 0;
-  margin: 0 0 40px 0;
+  margin: 0 0 20px 0;
 }
 
 #footer .social-links {

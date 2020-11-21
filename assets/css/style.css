@@ -120,8 +120,8 @@ h1, h2, h3, h4, h5, h6 {
   #header .logo {
     margin: 5px;
     padding: 0;
-    width: 40px;
-    height: 50px;
+    width: 30px;
+    height: 40px;
 
   }
 }
@@ -910,6 +910,21 @@ section {
   transition: all ease-in-out 0.3s;
   background: #f4f4f4;
   border-radius: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .portfolio #portfolio-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 10px 7px 10px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #f4f4f4;
+    border-radius: 50px;
+  }
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {

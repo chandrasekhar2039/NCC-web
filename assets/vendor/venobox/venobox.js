@@ -722,6 +722,7 @@
             player = 'https://www.youtube.com/embed/';
           }
           content.html('<iframe class="venoframe vbvid" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="autoplay" frameborder="0" src="' + player + videoObj.id + queryvars + '"></iframe>');
+          // content.html('<iframe class="venoframe vbvid" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="autoplay" frameborder="0" src="https://www.youtube.com/embed/4y-pebv6rmg?rel=0&autoplay=0"></iframe>');
           updateoverlay();
         }
 

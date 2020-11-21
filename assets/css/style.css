@@ -110,10 +110,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  margin: 0;
+  margin: 5px;
   padding: 0;
-  width: 110px;
-  height: 70px;
+  width: 50px;
+  height: 60px;
 
 }
 

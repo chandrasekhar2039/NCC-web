@@ -353,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
 	-moz-transform:rotate(45deg);
 	-webkit-transform:rotate(45deg);
 }
-@media screen and (min-width: 50em) 
+@media screen and (min-width: 50em)
 {
 	.grid-testimonials li
   {
@@ -1637,4 +1637,7 @@ section {
 
 #footer .credits a:hover {
   color: #00AEEF;
+}
+.btn_ss{
+  margin: 20px auto 0;
 }
